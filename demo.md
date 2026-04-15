@@ -112,8 +112,7 @@ qi-xia-perspective/
 ├── SKILL.md                    # 完整技能文档（11247字节）
 ├── README.md                   # 项目说明（4173字节）
 ├── references/
-│   ├── 使用指南.md            # 详细使用说明（4864字节）
-│   └── 应用案例库.md          # 4个完整案例（9471字节）
+│   └── 使用指南.md            # 详细使用说明（4864字节）
 └── scripts/
     ├── quickstart.sh           # 快速启动脚本（3316字节）
     └── test_skill.sh           # 技能测试脚本（3861字节）
@@ -126,9 +125,6 @@ cat ~/.hermes/skills/creative/qi-xia-perspective/SKILL.md | head -50
 
 # 运行快速启动指南
 bash ~/.hermes/skills/creative/qi-xia-perspective/scripts/quickstart.sh
-
-# 查看应用案例
-cat ~/.hermes/skills/creative/qi-xia-perspective/references/应用案例库.md | grep -A5 "案例1"
 
 # 测试技能完整性
 bash ~/.hermes/skills/creative/qi-xia-perspective/scripts/test_skill.sh

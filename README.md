@@ -10,8 +10,7 @@
 qi-xia-perspective/
 ├── SKILL.md                    # 主技能文件（完整思维框架）
 ├── references/                 # 参考文档
-│   ├── 使用指南.md            # 详细使用说明
-│   └── 应用案例库.md          # 实际应用案例
+│   └── 使用指南.md            # 详细使用说明
 └── scripts/                    # 工具脚本
     └── quickstart.sh           # 快速启动脚本
 ```
@@ -20,10 +19,7 @@ qi-xia-perspective/
 
 ### 方法1：直接使用技能
 ```bash
-# 在Hermes中激活技能
-/skill qi-xia-perspective
-
-# 或用对话触发
+# 用对话触发
 "用齐夏的视角分析这个问题"
 "齐夏会怎么做？"
 "切换到齐夏模式"
